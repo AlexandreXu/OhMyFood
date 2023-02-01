@@ -4,24 +4,12 @@
   box-sizing: border-box;
 }
 
-header {
-  display: block;
-}
-
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   background-color: #FAFAFA;
   font-family: "Roboto", sans-serif;
-}
-
-header {
-  position: relative;
-  font-family: "Shrikhand", cursive;
-  text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
-  padding: 0.3rem;
 }
 
 main {
@@ -32,33 +20,25 @@ section {
   display: block;
 }
 
-.ville {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  background-color: #EAEAEA;
+header {
+  display: block;
+  position: relative;
+  font-family: "Shrikhand", cursive;
   text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   padding: 0.3rem;
-}
-
-.ville i {
-  font-size: 1.5rem;
 }
 
 .recherche {
   text-align: center;
 }
-
 .recherche h2 {
   margin-top: 2rem;
   font-size: 40px;
 }
-
 .recherche p {
   font-size: 18px;
 }
-
 .recherche button {
   color: white;
   font-weight: bold;
@@ -71,6 +51,19 @@ section {
   border: 0;
   cursor: pointer;
   box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+}
+
+.ville {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #EAEAEA;
+  text-align: center;
+  padding: 0.3rem;
+}
+.ville i {
+  font-size: 1.5rem;
 }
 
 .fonctionnement {
