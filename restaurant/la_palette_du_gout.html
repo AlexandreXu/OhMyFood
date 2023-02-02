@@ -1,136 +1,185 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang=fr-FR>
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin></script>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="image/logo/favico/ohmyfoodfavicon2.png">
+    <meta name="description" content="Restaurant La palette du goût avec Ohmyfood">
+    <title>La palette du goût</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="../image/logo/favico/ohmyfoodfavicon.png">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../index.css" type='text/css'>
+    <link rel="stylesheet" href="../css/style.css" type='text/css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <script src="https://kit.fontawesome.com/cc9f739fa7.js" crossorigin="anonymous"></script>
-    <title>Restaurant "La palette du goût" - ohmyfood!</title>
 </head>
 
 <body>
-    <header class="header header--withBackArrow">
-        <div class="restaurantContainer"> <a href="../Index.html"><i class="fa-arrow-left fas header__arrow"></i></a>
-            <h1 class="header__logo">ohmyfood</h1>
-        </div>
-    </header> <img src="../image/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="" class="heroImg">
-    <main class="container menu">
-        <header class="menu__header">
-            <h2 class="menu__title">La palette du goût</h2> <button class="menu__btn"> <i
-                    class="fa-2x fa-heart far menu__like menu__like--noBg"></i> <i
-                    class="fa-2x fa-heart fas menu__like menu__like--bg"></i> </button>
-        </header>
-        <div class="submenus">
-            <section class="submenu">
-                <h3 class="submenu__title">Entrées</h3>
-                <section class="delay-0 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Fricassée d'escargot</h4>
-                        <p class="menuItem__description">Au piment d'espelette</p>
-                    </header>
-                    <div class="menuItem__price">25€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-                <section class="delay-1 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Foie gras de canard mi-cuit</h4>
-                        <p class="menuItem__description">Et ses copeaux de truffe noire</p>
-                    </header>
-                    <div class="menuItem__price">35€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-                <section class="delay-2 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Oeuf au plat</h4>
-                        <p class="menuItem__description">Assaisonné à la truffe sur lit de caviar</p>
-                    </header>
-                    <div class="menuItem__price">20€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-            </section>
-            <section class="submenu">
-                <h3 class="submenu__title">Plats</h3>
-                <section class="delay-3 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Filet de boeuf aux herbes</h4>
-                        <p class="menuItem__description">Accompagné de sa ribambelle de légumes</p>
-                    </header>
-                    <div class="menuItem__price">40€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-                <section class="delay-4 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Parmentier de queue de boeuf</h4>
-                        <p class="menuItem__description">A la truffe noire sur sa purée de panais</p>
-                    </header>
-                    <div class="menuItem__price">35€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-                <section class="delay-5 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Filet de Turbot</h4>
-                        <p class="menuItem__description">Aux agrumes</p>
-                    </header>
-                    <div class="menuItem__price">44€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-            </section>
-            <section class="submenu">
-                <h3 class="submenu__title">Desserts</h3>
-                <section class="delay-6 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Paris-Brest</h4>
-                        <p class="menuItem__description">Revisité</p>
-                    </header>
-                    <div class="menuItem__price">18€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-                <section class="delay-7 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Macaron au chocolat d'exception</h4>
-                        <p class="menuItem__description">Et glace à la vanille de Madagascar</p>
-                    </header>
-                    <div class="menuItem__price">22€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-                <section class="delay-8 menuItem">
-                    <header class="menuItem__header">
-                        <h4 class="menuItem__title">Mousse au chocolat</h4>
-                        <p class="menuItem__description">Au piment d'espelette et à la truffe noire</p>
-                    </header>
-                    <div class="menuItem__price">23€</div>
-                    <div class="menuItem__confirmation">
-                        <div class="menuItem__wrapIcon"> <i class="fa-check fas menuItem__icon"></i> </div>
-                    </div>
-                </section>
-            </section>
-        </div>
-        <div class="wrapBtn"> <button class="commandBtn">Commander</button> </div>
+    <header class='tête'>
+        <h1 class='tête__titre'>ohmyfood</h1>
+        <a href="../index.html" class='tête__flèche'>
+            <i class="fas fa-arrow-left tête__flèche--vide"></i>
+            <i class="fas fa-arrow-left tête__flèche--plein"></i>
+        </a>
+    </header>
+    <main>
+        <article class='bandeau'>
+            <img class='bandeau__image' src='../image/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg'
+                alt='La palette du goût'>
+            <div class='bandeau__texte'>
+                <h2 class='bandeau__texte__titre'>La palette du goût</h2>
+                <input class='bandeau__texte--selection' type='checkbox' name='aime' id='aime_la_palette_du_gout'>
+                <label for='aime_la_palette_du_gout' class='coeur'>
+                    <i class='far fa-heart coeur--vide'></i>
+                    <span class='coeur__filtre'><i class="fas fa-heart coeur__filtre--plein"></i></span>
+                </label>
+            </div>
+        </article>
+        <form class='repas'>
+            <h3 class="repas__titre">entrées <span class="repas__titre--barre"></span></h3>
+            <fieldset class='repas__entrée'>
+                <div class='repas__entrée--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='entrée1' class='selection'>
+                    <label for='entrée1' class='assiette assiette--un'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Fricassée d'escargot">Fricassée d'escargot</span>
+                            <span class='assiette__texte__menu' title="Au piment d'Espelette">Au piment
+                                d'Espelette</span>
+                        </span>
+                        <span class='assiette__prix'>25€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class='repas__entrée--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='entrée2' class='selection'>
+                    <label for='entrée2' class='assiette assiette--deux'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Foie gras de canard mi-cuit">Foie gras de canard
+                                mi-cuit</span>
+                            <span class='assiette__texte__menu' title="Et ses copeaux de truffe noire">Et ses copeaux de
+                                truffe noire</span>
+                        </span>
+                        <span class='assiette__prix'>35€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class='repas__entrée--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='entrée3' class='selection'>
+                    <label for='entrée3' class='assiette assiette--trois'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Oeuf au plat">Oeuf au plat</span>
+                            <span class='assiette__texte__menu'
+                                title="Assaisonné à la truffe sur lit de caviar">Assaisonné à la truffe sur lit de
+                                caviar</span>
+                        </span>
+                        <span class='assiette__prix'>20€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+            </fieldset>
+            <h3 class="repas__titre">plats<span class="repas__titre--barre"></span></h3>
+            <fieldset class='repas__plat'>
+                <div class='repas__plat--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='plat1' class='selection'>
+                    <label for='plat1' class='assiette assiette--un'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Filet de boeuf aux herbes">Filet de boeuf aux
+                                herbes</span>
+                            <span class='assiette__texte__menu'
+                                title="Accompagné de sa ribambelle de légumes">Accompagné de sa ribambelle de
+                                légumes</span>
+                        </span>
+                        <span class='assiette__prix'>40€</span>
+
+
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class='repas__plat--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='plat2' class='selection'>
+                    <label for='plat2' class='assiette assiette--deux'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Parmentier de queue de boeuf">Parmentier de queue
+                                de boeuf</span>
+                            <span class='assiette__texte__menu' title="À la truffe noire sur sa purée de panais">À la
+                                truffe noire sur sa purée de panais</span>
+                        </span>
+                        <span class='assiette__prix'>35€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class='repas__plat--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='plat3' class='selection'>
+                    <label for='plat3' class='assiette assiette--trois'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Filet de turbot">Filet de turbot</span>
+                            <span class='assiette__texte__menu' title="Aux agrumes">Aux agrumes</span>
+                        </span>
+                        <span class='assiette__prix'>44€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+            </fieldset>
+            <h3 class="repas__titre">desserts<span class="repas__titre--barre"></span></h3>
+            <fieldset class='repas__dessert'>
+                <div class='repas__dessert--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='dessert1' class='selection'>
+                    <label for='dessert1' class='assiette assiette--un'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Paris-Brest">Paris-Brest</span>
+                            <span class='assiette__texte__menu' title="Revisité">Revisité</span>
+                        </span>
+                        <span class='assiette__prix'>18€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class='repas__dessert--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='dessert2' class='selection'>
+                    <label for='dessert2' class='assiette assiette--deux'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Macaron au chocolat d'exception">Macaron au
+                                chocolat d'exception</span>
+                            <span class='assiette__texte__menu' title="Et glace à la vanille de Madagascar">Et glace à
+                                la vanille de Madagascar</span>
+                        </span>
+                        <span class='assiette__prix'>22€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+                <div class='repas__dessert--choix'>
+                    <input type="checkbox" name='menu_la_palette_du_gout' id='dessert3' class='selection'>
+                    <label for='dessert3' class='assiette assiette--trois'>
+                        <span class='assiette__texte'>
+                            <span class='assiette__texte__menu' title="Mousse au chocolat">Mousse au chocolat</span>
+                            <span class='assiette__texte__menu' title="Au piment d'Espelette et à la truffe noire">Au
+                                piment d'Espelette et à la truffe noire</span>
+                        </span>
+                        <span class='assiette__prix'>23€</span>
+                        <span class='assiette--valide'>
+                            <i class="fas fa-check-circle assiette--valide--icone"></i>
+                        </span>
+                    </label>
+                </div>
+            </fieldset>
+            <input type='button' class='repas--bouton' value="Commander">
+        </form>
     </main>
     <footer class='pied'>
         <h4 class='pied__titre'>ohmyfood</h4>
@@ -142,13 +191,14 @@
                 <a href='#' class='lien'><i class="fas fa-hands-helping lien__icone"></i>Devenir partenaire</a>
             </li>
             <li class='pied__liste--element'>
-                <a href='mentions-legales/mentions-legales-site-internet.pdf' class='lien'>Mentions légales</a>
+                <a href='#' class='lien'>Mentions légales</a>
             </li>
             <li class='pied__liste--element'>
-                <a href='mailto:#' class='lien'>Contact</a>
+                <a href='#' class='lien'>Contact</a>
             </li>
         </ul>
     </footer>
+    <script src="https://kit.fontawesome.com/c1d244d3fe.js" crossorigin="anonymous" async></script>
 </body>
 
 </html>
