@@ -777,7 +777,7 @@ body {
 .recherche__archer {
   width: 24px;
   position: absolute;
-  left: 22vw;
+  left: 45vw;
   top: 15px;
   font-size: 1rem;
 }
@@ -910,7 +910,7 @@ body {
 
 @media screen and (min-width: 900px) {
   .bandeau__image {
-    width: 900px;
+    width: 100%;
     display: block;
     margin: 0 auto;
   }
@@ -1111,7 +1111,7 @@ body {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  height: 250px;
+  height: 335px;
   min-height: 250px;
   margin: 0 0 0 0;
   padding: 5px 0 0 0;
