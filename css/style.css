@@ -686,6 +686,7 @@ body {
     transform: rotateZ(360deg);
   }
 }
+
 @-webkit-keyframes virevolte {
   0% {
     -webkit-transform: translateX(0px);
@@ -1386,7 +1387,6 @@ body {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
@@ -1395,6 +1395,12 @@ body {
 @media screen and (min-width: 1024px) {
   .restaurants__navigation {
     height: 550px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .restaurants__navigation {
+    flex-flow: row wrap;
   }
 }
 
@@ -1780,3 +1786,39 @@ body {
   z-index: 1;
   opacity: 0.1;
 }
+
+/**test loader**/
+.loader {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  background-color: #FFFF;
+  height: 100vh;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.9;
+  animation: disappear 200ms 3s forwards;
+  transform-origin: top;
+  i {
+    animation: spin 1s infinite linear;
+  }
+}
+
+@keyframes disappear {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/**test Slider**/

@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    <div class="loader">
+        <i class="fas fa-circle-notch fa-4x fa-spin"></i>
+    </div>
     <header class='tête'>
         <p class='tête__logo'><img src='image/images/logo/ohmyfood.png' alt='logo ohmyfood' class='tête__logo__image'>
         </p>
@@ -54,7 +57,9 @@
         </aside>
         <article class='restaurants'>
             <h2 class='restaurants__titre'>Restaurants</h2>
-            <nav class='restaurants__navigation'>
+            <div class="slider">
+                <div class="slides">
+            <nav class='restaurants__navigation slide'>
                 <section class='carte'>
                     <a href="restaurant/la_palette_du_gout.html" class='carte__lien'>
                         <span class='carte__lien--nouveau'>Nouveau</span>
@@ -85,7 +90,7 @@
                     </label>
                 </section>
                 <section class='carte'>
-                    <a href="restaurant/a_la_française.html" class='carte__lien'>
+                    <a href="restaurant/a_la_francaise.html" class='carte__lien'>
                         <img class='carte__lien__image'
                             src="image/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="À la française">
 
@@ -101,7 +106,7 @@
 
                 <section class='carte'>
 
-                    <a href="restaurant/le_delice_des_sens.html" class='carte__lien'>
+                    <a href="restaurant/la_delice_des_sens.html" class='carte__lien'>
                         <img class='carte__lien__image'
                             src='image/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg'
                             alt="Le délice des sens">
@@ -117,6 +122,8 @@
                 </section>
             </nav>
         </article>
+            </div>
+        </div>
     </main>
     <footer class='pied'>
         <h4 class='pied__titre'>ohmyfood</h4>
