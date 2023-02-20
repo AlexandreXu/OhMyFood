@@ -1379,18 +1379,6 @@ body {
   font-size: 1.5rem;
 }
 
-.restaurants__navigation {
-  height: 1070px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-}
 
 @media screen and (min-width: 1024px) {
   .restaurants__navigation {
@@ -1406,7 +1394,7 @@ body {
 
 .carte {
   height: 250px;
-  width: 87%;
+  width: 90%;
   display: inline;
   position: relative;
   border-radius: 20px;
@@ -1787,7 +1775,6 @@ body {
   opacity: 0.1;
 }
 
-/**test loader**/
 .loader {
   position: fixed;
   display: grid;
@@ -1799,9 +1786,6 @@ body {
   opacity: 0.9;
   animation: disappear 200ms 3s forwards;
   transform-origin: top;
-  i {
-    animation: spin 1s infinite linear;
-  }
 }
 
 @keyframes disappear {
@@ -1821,4 +1805,33 @@ body {
     transform: rotate(360deg);
   }
 }
-/**test Slider**/
+
+.restaurants__navigation {
+  height: 1070px;
+  overflow: hidden;
+  margin: 50px auto;
+  position: relative;
+}
+
+.conteneur{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  animation: defilement1 10s linear infinite;
+}
+
+.conteneur:hover {
+  animation-play-state: paused;
+}
+
+@keyframes defilement1{
+  0%{transform: translate(0,0);}
+  100%{transform: translate(calc(-350px * 4));}
+}
+
+@media screen and (max-width: 1024px) {
+  .conteneur {
+    animation: none;
+    flex-flow: column;
+  }
+}
