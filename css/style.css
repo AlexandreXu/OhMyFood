@@ -775,16 +775,23 @@ body {
   animation: fleche-tension 0.5s linear 1.35s 1 forwards;
 }
 
-.recherche__archer {
-  width: 24px;
-  position: absolute;
-  left: 45vw;
-  top: 15px;
-  font-size: 1rem;
+/**test marker**/
+
+.local {
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 1rem;
+  background-color: #EAEAEA;
+  font-size: 1.2rem;
+  position: relative;
 }
 
-.recherche__archer--fleche {
-  color: #000;
+.local__icon {
+  margin-right: 1rem;
+}
+
+.local__text {
+  font-weight: 500;
 }
 
 .repas--bouton {
