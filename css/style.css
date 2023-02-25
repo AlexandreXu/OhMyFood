@@ -1374,7 +1374,7 @@ body {
 
 @media screen and (min-width: 1024px) {
   .restaurants {
-    height: 700px;
+    height: 500px;
   }
 }
 
@@ -1814,7 +1814,6 @@ body {
 }
 
 .restaurants__navigation {
-  height: 1070px;
   overflow: hidden;
   margin: 50px auto;
   position: relative;
@@ -1824,7 +1823,6 @@ body {
   display: flex;
   width: 100%;
   align-items: center;
-  animation: defilement1 10s linear infinite;
 }
 
 .conteneur:hover {
