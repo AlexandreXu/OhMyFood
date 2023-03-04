@@ -1368,7 +1368,7 @@ body {
 }
 
 .restaurants {
-  height: 1190px;
+  height: 1250px;
   background-color: #FAFAFA;
 }
 
@@ -1402,6 +1402,7 @@ body {
 .carte {
   height: 250px;
   width: 90%;
+  margin-bottom: 1.5rem;
   display: inline;
   position: relative;
   border-radius: 20px;
